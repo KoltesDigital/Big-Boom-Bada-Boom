@@ -1,0 +1,750 @@
+fileFormatVersion: 2
+guid: 4c2ddbb0666086f42835af696a169d1a
+timeCreated: 1433283530
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Plane
+    100004: Plane.001
+    100006: Arm.L
+    100008: Arm.R
+    100010: Armature
+    100012: Cat
+    100014: Foot.L
+    100016: Foot.L_end
+    100018: Foot.R
+    100020: Foot.R_end
+    100022: Forearm.L
+    100024: Forearm.R
+    100026: Hand.L
+    100028: Hand.L_end
+    100030: Hand.R
+    100032: Hand.R_end
+    100034: Head
+    100036: Head_end
+    100038: Hip.L
+    100040: Hip.R
+    100042: IK Foot.L
+    100044: IK Foot.L_end
+    100046: IK Foot.R
+    100048: IK Foot.R_end
+    100050: IK Hand.L
+    100052: IK Hand.L_end
+    100054: IK Hand.R
+    100056: IK Hand.R_end
+    100058: IK Tail
+    100060: IK Tail_end
+    100062: Leg.L
+    100064: Leg.R
+    100066: Neck
+    100068: Root
+    100070: Shoulder.L
+    100072: Shoulder.R
+    100074: Tail.1
+    100076: Tail.2
+    100078: Tail.3
+    100080: Tail.4
+    100082: Tail.5
+    100084: Tail.5_end
+    100086: Tibia.L
+    100088: Tibia.R
+    100090: Torso.B
+    100092: Torso.T
+    400000: //RootNode
+    400002: Plane
+    400004: Plane.001
+    400006: Arm.L
+    400008: Arm.R
+    400010: Armature
+    400012: Cat
+    400014: Foot.L
+    400016: Foot.L_end
+    400018: Foot.R
+    400020: Foot.R_end
+    400022: Forearm.L
+    400024: Forearm.R
+    400026: Hand.L
+    400028: Hand.L_end
+    400030: Hand.R
+    400032: Hand.R_end
+    400034: Head
+    400036: Head_end
+    400038: Hip.L
+    400040: Hip.R
+    400042: IK Foot.L
+    400044: IK Foot.L_end
+    400046: IK Foot.R
+    400048: IK Foot.R_end
+    400050: IK Hand.L
+    400052: IK Hand.L_end
+    400054: IK Hand.R
+    400056: IK Hand.R_end
+    400058: IK Tail
+    400060: IK Tail_end
+    400062: Leg.L
+    400064: Leg.R
+    400066: Neck
+    400068: Root
+    400070: Shoulder.L
+    400072: Shoulder.R
+    400074: Tail.1
+    400076: Tail.2
+    400078: Tail.3
+    400080: Tail.4
+    400082: Tail.5
+    400084: Tail.5_end
+    400086: Tibia.L
+    400088: Tibia.R
+    400090: Torso.B
+    400092: Torso.T
+    2300000: //RootNode
+    2300002: Plane
+    2300004: Plane.001
+    2300006: Cat
+    3300000: //RootNode
+    3300002: Plane
+    3300004: Plane.001
+    3300006: Cat
+    4300000: Plane
+    4300002: Plane.001
+    4300004: Cat
+    7400000: Armature|ArmatureAction
+    7400002: Armature|Dash
+    7400004: Armature|Dash.001
+    7400006: Armature|Idle
+    7400008: Armature|Tail
+    7400010: Cat|ArmatureAction
+    7400012: Cat|Dash.001
+    7400014: Plane.001|ArmatureAction
+    7400016: Plane.001|Dash.001
+    7400018: Armature|Left
+    7400020: Armature|Right
+    7400022: Armature|T
+    7400024: Armature|Nod
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cat
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Dash
+      takeName: Armature|Dash
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/IK Foot.L
+        weight: 1
+      - path: Armature/IK Foot.R
+        weight: 1
+      - path: Armature/IK Hand.L
+        weight: 1
+      - path: Armature/IK Hand.R
+        weight: 1
+      - path: Armature/IK Tail
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Hip.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L/Tibia.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Hip.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R/Tibia.R/Foot.R
+        weight: 1
+      - path: Armature/Root/Tail.1
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3/Tail.4
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3/Tail.4/Tail.5
+        weight: 1
+      - path: Armature/Root/Torso.B
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Neck
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Neck/Head
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Cat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/IK Foot.L
+        weight: 1
+      - path: Armature/IK Foot.R
+        weight: 1
+      - path: Armature/IK Hand.L
+        weight: 1
+      - path: Armature/IK Hand.R
+        weight: 1
+      - path: Armature/IK Tail
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Hip.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L/Tibia.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Hip.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R/Tibia.R/Foot.R
+        weight: 1
+      - path: Armature/Root/Tail.1
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3/Tail.4
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3/Tail.4/Tail.5
+        weight: 1
+      - path: Armature/Root/Torso.B
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Neck
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Neck/Head
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Cat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Left
+      takeName: Armature|Left
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/IK Foot.L
+        weight: 1
+      - path: Armature/IK Foot.R
+        weight: 1
+      - path: Armature/IK Hand.L
+        weight: 1
+      - path: Armature/IK Hand.R
+        weight: 1
+      - path: Armature/IK Tail
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Hip.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L/Tibia.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Hip.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R/Tibia.R/Foot.R
+        weight: 1
+      - path: Armature/Root/Tail.1
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3/Tail.4
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3/Tail.4/Tail.5
+        weight: 1
+      - path: Armature/Root/Torso.B
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Neck
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Neck/Head
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Cat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Right
+      takeName: Armature|Right
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/IK Foot.L
+        weight: 1
+      - path: Armature/IK Foot.R
+        weight: 1
+      - path: Armature/IK Hand.L
+        weight: 1
+      - path: Armature/IK Hand.R
+        weight: 1
+      - path: Armature/IK Tail
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Hip.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L/Tibia.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Hip.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R/Tibia.R/Foot.R
+        weight: 1
+      - path: Armature/Root/Tail.1
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3/Tail.4
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3/Tail.4/Tail.5
+        weight: 1
+      - path: Armature/Root/Torso.B
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Neck
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Neck/Head
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Cat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|T
+      takeName: Armature|T
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/IK Foot.L
+        weight: 1
+      - path: Armature/IK Foot.R
+        weight: 1
+      - path: Armature/IK Hand.L
+        weight: 1
+      - path: Armature/IK Hand.R
+        weight: 1
+      - path: Armature/IK Tail
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Hip.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L/Tibia.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Hip.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R/Tibia.R/Foot.R
+        weight: 1
+      - path: Armature/Root/Tail.1
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3/Tail.4
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3/Tail.4/Tail.5
+        weight: 1
+      - path: Armature/Root/Torso.B
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Neck
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Neck/Head
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Cat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Nod
+      takeName: Armature|Nod
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/IK Foot.L
+        weight: 1
+      - path: Armature/IK Foot.R
+        weight: 1
+      - path: Armature/IK Hand.L
+        weight: 1
+      - path: Armature/IK Hand.R
+        weight: 1
+      - path: Armature/IK Tail
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Hip.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L/Tibia.L
+        weight: 1
+      - path: Armature/Root/Hip.L/Leg.L/Tibia.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Hip.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R/Tibia.R
+        weight: 1
+      - path: Armature/Root/Hip.R/Leg.R/Tibia.R/Foot.R
+        weight: 1
+      - path: Armature/Root/Tail.1
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3/Tail.4
+        weight: 1
+      - path: Armature/Root/Tail.1/Tail.2/Tail.3/Tail.4/Tail.5
+        weight: 1
+      - path: Armature/Root/Torso.B
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Neck
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Neck/Head
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.L/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Root/Torso.B/Torso.T/Shoulder.R/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Cat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.54999995
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

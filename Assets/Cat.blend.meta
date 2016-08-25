@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 94c196e0f0925034ca4ba97a2ad881fe
+timeCreated: 1433283531
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Plane
+    100004: Plane_001
+    100006: Arm_L
+    100008: Arm_R
+    100010: Armature
+    100012: Cat
+    100014: Foot_L
+    100016: Foot_R
+    100018: Forearm_L
+    100020: Forearm_R
+    100022: Hand_L
+    100024: Hand_R
+    100026: Head
+    100028: Hip_L
+    100030: Hip_R
+    100032: IK_Foot_L
+    100034: IK_Foot_R
+    100036: IK_Hand_L
+    100038: IK_Hand_R
+    100040: IK_Tail
+    100042: Leg_L
+    100044: Leg_R
+    100046: Neck
+    100048: Root
+    100050: Shoulder_L
+    100052: Shoulder_R
+    100054: Tail_1
+    100056: Tail_2
+    100058: Tail_3
+    100060: Tail_4
+    100062: Tail_5
+    100064: Tibia_L
+    100066: Tibia_R
+    100068: Torso_B
+    100070: Torso_T
+    400000: //RootNode
+    400002: Plane
+    400004: Plane_001
+    400006: Arm_L
+    400008: Arm_R
+    400010: Armature
+    400012: Cat
+    400014: Foot_L
+    400016: Foot_R
+    400018: Forearm_L
+    400020: Forearm_R
+    400022: Hand_L
+    400024: Hand_R
+    400026: Head
+    400028: Hip_L
+    400030: Hip_R
+    400032: IK_Foot_L
+    400034: IK_Foot_R
+    400036: IK_Hand_L
+    400038: IK_Hand_R
+    400040: IK_Tail
+    400042: Leg_L
+    400044: Leg_R
+    400046: Neck
+    400048: Root
+    400050: Shoulder_L
+    400052: Shoulder_R
+    400054: Tail_1
+    400056: Tail_2
+    400058: Tail_3
+    400060: Tail_4
+    400062: Tail_5
+    400064: Tibia_L
+    400066: Tibia_R
+    400068: Torso_B
+    400070: Torso_T
+    2300000: //RootNode
+    2300002: Plane
+    2300004: Plane_001
+    2300006: Cat
+    3300000: //RootNode
+    3300002: Plane
+    3300004: Plane_001
+    3300006: Cat
+    4300000: Plane
+    4300002: Plane_001
+    4300004: Cat
+    7400000: Default Take
+    7400002: Dash
+    7400004: Idle
+    7400006: Tail
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cat
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
